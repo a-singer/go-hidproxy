@@ -54,7 +54,6 @@ var Scancodes = map[uint16]uint16{
 	105: 80, // LEFT
 	108: 81, // DOWN
 	103: 82, // UP
-		111:  76, //delete 
 	59:  58, // F1
 	60:  59, // F2
 	61:  60, // F3
@@ -127,7 +126,7 @@ var Scancodes = map[uint16]uint16{
 	42:  225, // Left-Shift
 	56:  226, // Left-Alt
 	100: 230, // AltGr (Right-Alt)
-	127: 101, // Right-Cmd
+	127: 231, // Right-Cmd
 	97:  228, // Right-Ctrl
 	54:  229, // Right-Shift
 }
