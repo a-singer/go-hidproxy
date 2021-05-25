@@ -121,7 +121,7 @@ var Scancodes = map[uint16]uint16{
 	115: 128, // VolUp
 	164: 232, // PlayPause
 	165: 234, // PreviousTrack
-	165: 233, // NextTrack
+	163: 233, // NextTrack
 	58:  57,  // CapsLock (non-locking)
 	158: 122, // "Undo" (Thinkpad special key)
 	159: 121, // "Again" (Thinkpad special key)
